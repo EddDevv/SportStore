@@ -1,0 +1,546 @@
+@media(max-width: 1200px) {
+    .header__body {
+        align-items: center;
+    }
+
+    .header__nav {
+        width: 100%;
+        order: 1;
+        margin-top: 15px;
+    }
+
+    .banner__body {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .card {
+        flex: 0 1 45%;
+    }
+    .benefits__content {
+        padding: 20px;
+    }
+    .benefits__item, .footer__header {
+        flex-direction: column;
+    }
+    .footer__nav {
+        margin-top: 20px;
+    }
+    .footer__contacts, .footer__nav-list {
+        justify-content: center;
+    }
+    .card-page__info-title {
+        font-size: 54px;
+    }
+}
+
+
+@media(max-width: 991px) {
+    .banner__body img {
+        display: none;
+    }
+
+    .banner {
+        background-image: url("../img/bg-mobile.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner__text {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner__btn {
+        align-self: center;
+    }
+
+    .banner__day {
+        justify-content: center;
+    }
+
+    .banner__day::after {
+        display: none;
+    }
+
+    .card__info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .card__info-text  {
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .card__price {
+        margin-top: 0;
+    }
+    .kits__slider-slide, .kits__header {
+        flex-direction: column;
+    }
+    .kits__slider-slide img {
+        max-width: 100%;
+    }
+    .kits__slider-text {
+       margin-top: 30px;
+       margin-left: 0;
+    }
+    .kits__slider-pagination {
+        margin-top: 15px;
+    }
+
+    .benefits__img {
+        max-width: 50%;
+    }
+
+    .benefits__item {
+        flex: 0 1 100%;
+        margin-top: 20px;
+    }
+    .active-life__body {
+        flex-direction: column-reverse;
+    }
+    .active-life__img {
+        max-width: 80%;
+    }
+
+    .active-life__zindex {
+        align-items: center;
+        text-align: center;
+    }
+    .active-life__text {
+        margin-right: 0;
+    }
+    .active-life__big-text  {
+        font-size: 200px;
+    }
+    .banner-bg__full-img  {
+        display: none;
+    }
+    .subscribe__body .banner__title {
+        font-size: 55px;
+    }
+    .card-page__body {
+        flex-direction: column;
+    }
+    .card-page__info {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .qa__content {
+        max-width: 100%;
+    }
+
+}
+
+
+@media(max-width: 768px) {
+    .burger, .close, .nav__header {
+        display: flex;
+    }
+
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 500;
+        background-color: #fff;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 20px 20px 20px;
+        transform: translate(-100%, 0);
+        transition: 0.3s;
+        overflow-y: auto;
+    }
+
+    .nav__list, .header__icons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__cart {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .how-products {
+        left: 15px;
+    }
+
+    .nav__list {
+        width: 100%;
+    }
+
+    .nav__item {
+        margin-left: 45px;
+    }
+
+    .nav__item {
+        display: block;
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .cart__title, .favourites__title {
+        display: block;
+    }
+
+    .header__number {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #5B6773;
+        opacity: 0.4;
+    }
+
+    .nav__language {
+        display: flex;
+        align-items: center;
+    }
+
+    .language__item {
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .language__item:first-child {
+        margin-right: 20px;
+    }
+
+    .language__item_active {
+        font-weight: 500;
+        color: #5B6773;
+        opacity: 0.6;
+    }
+
+    .nav__contacts {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .nav__social {
+        margin-top: 20px;
+    }
+
+    .nav__social {
+        margin-top: 20px;
+    }
+
+    .nav__social-img {
+        margin-right: 20px;
+    }
+
+    .nav__social-img:last-child {
+        margin-right: 0;
+    }
+
+    section {
+        margin-top: 40px;
+    }
+
+    .popular__body {
+        margin-top: 0px;
+    }
+    .kits__slider-button-next {
+        display: none;
+    }
+    .kits__header-right {
+        margin-bottom: 20px;
+    }
+    .kits__slider-pagination .swiper-pagination-bullet:last-child {
+        margin-right: 0 !important;
+    }
+    .kits__slider-pagination .swiper-pagination-bullet {
+        margin-top: 20px !important;
+    }
+    .benefits__body {
+        flex-direction: column;
+    }
+
+    .benefits__content {
+        margin-left: 0;
+    }
+
+    .benefits__img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .active-life__big-text  {
+        display: none;
+    }
+    .banner-bg__content  {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .banner-bg__text {
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .banner-bg__btn {
+        width: 100% !important;
+    }
+    .subscribe__body {
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+    .catalog__filter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .catalog__sorting {
+        margin-top: 20px;
+    }
+    .card-page__info-description-price {
+        font-size: 25px;
+    }
+    .card-page__reviews-title {
+        font-size: 35px;
+    }
+    .card-page__reviews-name {
+        font-size: 18px;
+    }
+    .card-page__img-product {
+        width: 75%;
+    }
+    .accordion, .accordion__panel {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+.show-menu {
+    transition: 0.3s;
+    transform: translate(0, 0);
+}
+
+@media(max-width: 530px) {
+    .banner__text {
+       align-items: flex-start;
+       text-align: left;
+    }
+
+    .banner__btn {
+        width: 100%;
+    }
+
+    .banner__title {
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    .banner__subtitle {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .banner__mini-title {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    .banner__day {
+        justify-content: flex-start;
+    }
+
+    .title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 30px;
+    }
+
+    .card__title {
+        font-size: 14px;
+    }
+
+    .card__hit {
+        width: 25px;
+        height: 20px;
+        font-size: 9px;
+    }
+
+    .card__descriprion {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .card__price {
+        font-size: 16px;
+    }
+
+    .popular__hr {
+        margin-top: 30px;
+    }
+
+    .popular__btn {
+        font-size: 10px;
+    }
+    .kits__header {
+        padding-top: 30px;
+    }
+    .kits__header {
+        justify-content: center;
+    }
+    .kits__slider-pagination .swiper-pagination-bullet {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 12px;
+    }
+    .kits__slider-slide {
+        margin-top: 10px;
+    }
+
+    .benefits__item {
+        flex-direction: row;
+        padding: 0;
+        margin: 20px 0 0 0;
+    }
+
+    .benefits__content {
+        background-color: #fff;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .benefits__title, .reviews__slider-text {
+        font-size: 12px;
+    }
+    .benefits__item-subtitle {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .active-life__zindex {
+        align-items: flex-start;
+        text-align: left;
+    }
+    .reviews__slider-header { 
+        font-size: 64px;
+    }
+    .reviews__slider-text {
+        margin-top: -20px;
+    }
+    .reviews_slider-slide {
+        padding: 0 0 20px 0;
+    }
+    .reviews__slider-user {
+        margin-top: 20px;
+    }
+
+    .subscribe__body .banner__title {
+        font-size: 35px;
+    }
+
+    .subscribe, .subscribe__body {
+        height: 450px;
+    }
+
+    .subscribe__form, .footer__contacts, .footer__nav-list {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .subscribe__btns {
+        width: 100%;
+    }
+
+    .subscribe__input {
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .footer__nav {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__nav-item {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .footer__contacts {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__contacts-item {
+        margin-right: 0;
+    }
+
+    .subscribe__btn {
+        margin-top: 20px;
+    }
+
+    .footer__nav-link, .catalog__filter-btn {
+        font-size: 12px;
+    }
+    .footer__social, .catalog__filter {
+        margin-top: 20px;
+    }
+    .catalog__sorting-title {
+        display: none;
+    }
+    .catalog__sotring-dropdown, .catalog__sorting-result, .catalog__sorting {
+        width: 100%;
+    }
+    .catalog__sorting-item {
+        font-size: 14px;
+    }
+
+    .best__slider-pagination, .best__slider-pagination .swiper-pagination-current, .best__slider-pagination .swiper-pagination-total {
+        font-size: 20px;
+    }
+    .card-page__body {
+        margin-top: 20px;
+    }
+    .card-page__info-title, .card-page__reviews-title {
+        font-size: 28px;
+    }
+    .card-page__info-actuality {
+        text-align: left;
+    }
+    .card-page__reviews-description {
+        font-size: 12px;
+    }
+    .card-page__img-product {
+        width: 100%;
+    }
+    .recomendation {
+        margin-top: 30px;
+    }
+    .accordion {
+        font-size: 14px;
+        text-align: left;
+    }
+    .qa__content {
+        margin: 30px 0;
+    }
+}

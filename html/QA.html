@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport food</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <a href="../index.html" class="header__logo logo">
+                    <img src="../img/icons/logo.svg" alt="logo">
+                </a>
+                <nav class="header__nav nav">
+                    <div class="nav__header">
+                        <ul class="nav__language language">
+                            <li class="language__item language__item_active">Ru</li>
+                            <li class="language__item">En</li>
+                        </ul>
+                        <div class="close">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="catalog.html" class="nav__link">Товары</a></li>
+                        <li class="nav__item"><a href="QA.html" class="nav__link">Q&A</a></li>
+                        <li class="nav__item"><a href="articles.html" class="nav__link">Статьи</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="order-delivery.html" class="nav__link">Оплата и доставка</a></li>
+                        <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                    <div class="nav__contacts">
+                        <div class="nav__social">
+                            <img class="nav__social-img" src="../img/icons/facebook.svg" alt="facebook">
+                            <img class="nav__social-img" src="../img/icons/instagram.svg" alt="instagram">
+                            <img class="nav__social-img" src="../img/icons/twitter.svg" alt="twitter">
+                        </div>
+                    </div>
+                </nav>
+                <div class="header__right">
+                    <a href="tel:+79261716766" class="header__number">+7 926 171 67 66</a>
+                    <div class="header__icons">
+                        <a href="#" class="header__favourites favourites">
+                            <svg class="favourites__icon" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.4578 2.59133C18.9691 2.08683 18.3889 1.68663 17.7503 1.41358C17.1117 1.14054 16.4272 1 15.7359 1C15.0446 1 14.3601 1.14054 13.7215 1.41358C13.0829 1.68663 12.5026 2.08683 12.0139 2.59133L10.9997 3.63785L9.98554 2.59133C8.99842 1.57276 7.6596 1.00053 6.26361 1.00053C4.86761 1.00053 3.52879 1.57276 2.54168 2.59133C1.55456 3.6099 1 4.99139 1 6.43187C1 7.87235 1.55456 9.25383 2.54168 10.2724L3.55588 11.3189L10.9997 19L18.4436 11.3189L19.4578 10.2724C19.9467 9.76814 20.3346 9.16942 20.5992 8.51045C20.8638 7.85148 21 7.14517 21 6.43187C21 5.71857 20.8638 5.01225 20.5992 4.35328C20.3346 3.69431 19.9467 3.09559 19.4578 2.59133V2.59133Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="favourites__number how-products">9</span>
+                            <span class="favourites__title">Сохраненное</span>
+                        </a>
+                        <button class="header__cart cart">
+                            <svg class="cart__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="cart__number how-products">4</span>
+                            <span class="cart__title">Корзина</span>
+                        </button>
+                    </div>
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="qa">
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs__item"><a href="../index.html" class="breadcrumbs__link">Главная</a></li>
+                <li class="breadcrumbs__item"><a href="catalog.html" class="breadcrumbs__link breadcrumbs__link_active">Q&A</a></li>
+            </ul>
+            <div class="qa__body">
+                <div class="title">Вопросы и ответы</div>
+                <div class="qa__content">
+                    <div class="accordion__item">
+                        <button class="accordion">
+                            Я заказал товар, но он не пришел. Что делать?
+                            <span>+</span>
+                        </button>
+                        <div class="accordion__panel">
+                            One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff.
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion">
+                            Могу я вернуть товар?
+                            <span>+</span>
+                        </button>
+                        <div class="accordion__panel">
+                            One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff.
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion">
+                            Какие есть документы и сертификаты, подтверждающие качество продукции 4oоd?
+                            <span>+</span>
+                        </button>
+                        <div class="accordion__panel">
+                            One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff.
+                        </div>
+                    </div>
+                
+                    <div class="accordion__item">
+                        <button class="accordion">
+                            Я заказал товар, но он не пришел. Что делать?
+                            <span>+</span>
+                        </button>
+                        <div class="accordion__panel">
+                            One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff.
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion">
+                            Могу я вернуть товар?
+                            <span>+</span>
+                        </button>
+                        <div class="accordion__panel">
+                            One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff.
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion">
+                            Какие есть документы и сертификаты, подтверждающие качество продукции 4oоd?
+                            <span>+</span>
+                        </button>
+                        <div class="accordion__panel">
+                            One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__header">
+                    <img src="../img/icons/footer-logo.svg" alt="logo">
+                    <div class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item"><a href="../index.html" class="footer__nav-link">Главная</a></li>
+                            <li class="footer__nav-item"><a href="catalog.html" class="footer__nav-link">Товары</a></li>
+                            <li class="footer__nav-item"><a href="QA.html" class="footer__nav-link">Q&A</a></li>
+                            <li class="footer__nav-item"><a href="articles.html" class="footer__nav-link">Статьи</a></li>
+                            <li class="footer__nav-item"><a href="about.html" class="footer__nav-link">О нас</a></li>
+                            <li class="footer__nav-item"><a href="order-delivery.html" class="footer__nav-link">Оплата и доставка</a></li>
+                            <li class="footer__nav-item"><a href="contacts.html" class="footer__nav-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__contacts">
+                    <a href="mailto:info@4ood.ru" class="footer__mail footer__contacts-item">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.33366 2.3335H11.667C12.3087 2.3335 12.8337 2.8585 12.8337 3.50016V10.5002C12.8337 11.1418 12.3087 11.6668 11.667 11.6668H2.33366C1.69199 11.6668 1.16699 11.1418 1.16699 10.5002V3.50016C1.16699 2.8585 1.69199 2.3335 2.33366 2.3335Z" stroke="#5B6773" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12.8337 3.5L7.00033 7.58333L1.16699 3.5" stroke="#5B6773" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                            
+                        info@4ood.ru
+                    </a>
+                    <a href="tel:+79261716766" class="footer__number footer__contacts-item">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.77868 2.91683C9.34844 3.02799 9.87207 3.30665 10.2826 3.71712C10.693 4.1276 10.9717 4.65123 11.0828 5.221M8.77868 0.583496C9.96242 0.715001 11.0663 1.2451 11.909 2.08675C12.7517 2.9284 13.2832 4.03158 13.4162 5.21516M12.8328 9.87016V11.6202C12.8335 11.7826 12.8002 11.9434 12.7351 12.0923C12.6701 12.2411 12.5746 12.3748 12.4549 12.4846C12.3352 12.5944 12.1938 12.678 12.04 12.7301C11.8861 12.7821 11.723 12.8015 11.5612 12.7868C9.76617 12.5918 8.04193 11.9784 6.52701 10.996C5.11758 10.1004 3.92263 8.90543 3.02701 7.496C2.04117 5.9742 1.42766 4.24158 1.23618 2.4385C1.2216 2.27718 1.24077 2.11461 1.29247 1.96111C1.34417 1.80761 1.42726 1.66656 1.53646 1.54694C1.64566 1.42732 1.77857 1.33174 1.92672 1.2663C2.07488 1.20086 2.23505 1.16698 2.39701 1.16683H4.14701C4.43011 1.16404 4.70456 1.26429 4.91921 1.44889C5.13386 1.63349 5.27406 1.88984 5.31368 2.17016C5.38754 2.7302 5.52453 3.28009 5.72201 3.80933C5.8005 4.01812 5.81748 4.24503 5.77096 4.46318C5.72443 4.68132 5.61635 4.88156 5.45951 5.04016L4.71868 5.781C5.54909 7.2414 6.75828 8.45059 8.21868 9.281L8.95951 8.54016C9.11812 8.38333 9.31835 8.27524 9.5365 8.22872C9.75465 8.18219 9.98156 8.19918 10.1903 8.27766C10.7196 8.47515 11.2695 8.61213 11.8295 8.686C12.1129 8.72597 12.3717 8.8687 12.5567 9.08703C12.7417 9.30537 12.8399 9.58408 12.8328 9.87016Z" stroke="#5B6773" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                            
+                        +7 926 171 67 66
+                    </a>
+                    <div class="footer__map footer__contacts-item">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_941_2829)">
+                            <path d="M0.583008 3.49984V12.8332L4.66634 10.4998L9.33301 12.8332L13.4163 10.4998V1.1665L9.33301 3.49984L4.66634 1.1665L0.583008 3.49984Z" stroke="#5B6773" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.66699 1.1665V10.4998" stroke="#5B6773" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.33301 3.5V12.8333" stroke="#5B6773" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_941_2829">
+                            <rect width="14" height="14" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>         
+                        Алтуфьевское ш., 27а, Москва, Россия, 129090                   
+                    </div>
+                    <div class="footer__social">
+                        <a href="#">
+                            <svg width="15" height="15" viewBox="0 0 18 32" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.7908 5.33333H11.4884C10.5123 5.33333 9.72096 6.12928 9.72096 7.11111V12.4444H16.7908C16.9917 12.44 17.1824 12.534 17.3019 12.6967C17.4214 12.8594 17.455 13.0702 17.3917 13.2622L16.0838 17.1733C15.9632 17.5323 15.6297 17.7749 15.2531 17.7778H9.72096V31.1111C9.72096 31.602 9.32523 32 8.83724 32H4.41862C3.93056 32 3.5349 31.602 3.5349 31.1111V17.7778H0.883724C0.395661 17.7778 0 17.3797 0 16.8889V13.3333C0 12.8425 0.395661 12.4444 0.883724 12.4444H3.5349V7.11111C3.5349 3.18375 6.70022 0 10.6047 0H16.7908C17.2787 0 17.6745 0.397973 17.6745 0.888889V4.44444C17.6745 4.93536 17.2787 5.33333 16.7908 5.33333Z"/>
+                            </svg>                                
+                        </a>
+                        <a href="#">
+                            <svg width="15" height="15" viewBox="0 0 33 32"  xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.5354 0H9.39583C4.51517 0 0.558594 3.9797 0.558594 8.88889V23.1111C0.558594 28.0203 4.51517 32 9.39583 32H23.5354C28.416 32 32.3727 28.0203 32.3727 23.1111V8.88889C32.3727 3.9797 28.416 0 23.5354 0ZM29.2796 23.1111C29.2699 26.298 26.7037 28.8791 23.5354 28.8889H9.39583C6.22742 28.8791 3.66133 26.298 3.65163 23.1111V8.88889C3.66133 5.70196 6.22742 3.12087 9.39583 3.11111H23.5354C26.7037 3.12087 29.2699 5.70196 29.2796 8.88889V23.1111ZM24.861 9.33333C25.8372 9.33333 26.6285 8.53739 26.6285 7.55556C26.6285 6.57372 25.8372 5.77778 24.861 5.77778C23.8848 5.77778 23.0936 6.57372 23.0936 7.55556C23.0936 8.53739 23.8848 9.33333 24.861 9.33333ZM16.4656 8C12.073 8 8.51211 11.5817 8.51211 16C8.51211 20.4183 12.073 24 16.4656 24C20.8583 24 24.4191 20.4183 24.4191 16C24.4239 13.8768 23.5874 11.8392 22.0948 10.3379C20.6022 8.8366 18.5765 7.99527 16.4656 8ZM11.6051 16C11.6051 18.7001 13.7812 20.8889 16.4656 20.8889C19.15 20.8889 21.3261 18.7001 21.3261 16C21.3261 13.2999 19.15 11.1111 16.4656 11.1111C13.7812 11.1111 11.6051 13.2999 11.6051 16Z"/>
+                            </svg>                                
+                        </a>
+                        <a href="#">
+                            <svg width="15" height="15" viewBox="0 0 32 28"  xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31.953 4.71988C31.1322 5.82125 30.14 6.78198 29.0147 7.56496C29.0147 7.85266 29.0147 8.14036 29.0147 8.44406C29.0237 13.6687 26.9489 18.6785 23.2554 22.3503C19.5618 26.0221 14.5585 28.0488 9.36727 27.9759C6.36604 27.986 3.40323 27.2968 0.710968 25.962C0.56579 25.8982 0.472168 25.7538 0.472715 25.5944V25.4185C0.472715 25.189 0.657609 25.0031 0.88568 25.0031C3.83582 24.9051 6.6807 23.8763 9.01783 22.0621C6.34755 22.0079 3.94499 20.4168 2.83929 17.9702C2.78346 17.8367 2.80083 17.6833 2.88519 17.5657C2.96954 17.4482 3.10865 17.3835 3.25226 17.3949C4.06382 17.4769 4.88349 17.4009 5.6665 17.1711C2.71874 16.5556 0.503805 14.0941 0.186813 11.0813C0.175555 10.9368 0.239943 10.7969 0.356736 10.7119C0.473511 10.6271 0.625812 10.6095 0.758618 10.6658C1.54966 11.0169 2.4036 11.2018 3.26815 11.2091C0.685198 9.50399 -0.430468 6.26059 0.552127 3.31334C0.653561 3.02696 0.897239 2.81538 1.19362 2.7564C1.48999 2.69739 1.79537 2.79967 1.99749 3.02564C5.48302 6.75695 10.2722 8.98043 15.3551 9.22724C15.225 8.70468 15.1611 8.16763 15.1646 7.62889C15.2121 4.804 16.9499 2.28754 19.5643 1.2576C22.1785 0.227684 25.1521 0.888112 27.0929 2.92973C28.4157 2.67624 29.6946 2.2293 30.8889 1.6031C30.9764 1.54816 31.0873 1.54816 31.1748 1.6031C31.2295 1.69113 31.2295 1.80276 31.1748 1.8908C30.5964 3.2232 29.6191 4.34072 28.3794 5.08751C29.465 4.96088 30.5315 4.70329 31.5561 4.32031C31.6423 4.26125 31.7556 4.26125 31.8419 4.32031C31.9142 4.35355 31.9682 4.41714 31.9896 4.49414C32.011 4.57113 31.9976 4.65371 31.953 4.71988Z"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../app.js"></script>
+</body>
